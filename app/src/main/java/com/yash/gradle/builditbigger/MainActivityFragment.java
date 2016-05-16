@@ -2,12 +2,9 @@ package com.yash.gradle.builditbigger;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
-import com.example.JockerJava;
 
 
 /**
@@ -31,8 +28,6 @@ public class MainActivityFragment extends Fragment {
 //                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
 //                .build();
 //        mAdView.loadAd(adRequest);
-        JockerJava jockerJava = new JockerJava();
-        Log.v("TESTJAVALIB", jockerJava.randomJoke());
         return root;
     }
 }

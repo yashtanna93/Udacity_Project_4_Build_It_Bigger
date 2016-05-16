@@ -1,13 +1,18 @@
 package com.yash.gradle.builditbigger;
 
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Toast;
+
+import com.example.JockerJava;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
 
+    final JockerJava jockerJava = new JockerJava();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,6 +45,10 @@ public class MainActivity extends ActionBarActivity {
 //    public void tellJoke(View view){
 //        Toast.makeText(this, "derp", Toast.LENGTH_SHORT).show();
 //    }
+
+    public void tellJoke(View view) {
+        Toast.makeText(this, jockerJava.randomJoke(), Toast.LENGTH_SHORT).show();
+    }
 
 
 }
