@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f2df436a8f02ce7e4d7d209671fc45f97c470f0e">
+        <dex dex="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-8.4.0_12ea0647cca36aea01a24edc14b20154200d1afc/classes.dex" />
+    </item>
+    <item
+        jar="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c3526282486f29ce51f8248cb90b7e46a4452259">
+        <dex dex="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2f7002de0ccc86dc482197eecbf17b5a1928f326/classes.dex" />
+    </item>
+    <item
+        jar="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.3.0_6daafc1c5c27ba97f6d8818da44deaeb338859e0/classes.dex" />
+    </item>
+    <item
+        jar="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1a78298e7724d5440d210bcb946b3493250d354d">
+        <dex dex="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-8.4.0_7a792f7e63fb9c5b334169e5aa9c9e11f4a63e48/classes.dex" />
+    </item>
+    <item
+        jar="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-measurement-8.4.0_bdc23105a70cbad08d48a712c17562fe8b2a6982/classes.dex" />
+    </item>
+    <item
+        jar="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-8.4.0_73208370271f360dbfcf44bb4c2e98d15bedaa85/classes.dex" />
+    </item>
+    <item
+        jar="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.3.0_52230956d5ce508a72ea09dce1dd464b8aa977e2/classes.dex" />
+    </item>
+    <item
+        jar="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="0194a7409c40de94fb539d4ad9928ec5d47afeb7">
+        <dex dex="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-8.4.0_6a7381b5ecd7c3ff465fb6ac4654749cc067fbeb/classes.dex" />
+    </item>
+    <item
+        jar="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="dfecc4d835cdabcdecf7e95f0d20a3ef1e9d8ef4">
+        <dex dex="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-8.4.0_61368f12b1552f2a9a8352f3b447a06f157a04a1/classes.dex" />
+    </item>
+    <item
+        jar="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="551e78f21acf69ebfb489c0e79647824c838013e">
+        <dex dex="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-8.4.0_02763f1b489257224e34bcc023d1529c568499ac/classes.dex" />
+    </item>
+    <item
+        jar="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.4.0_bd05f74c4af6a2383689f8de6c834ea44c11da61/classes.dex" />
+    </item>
+    <item
+        jar="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.3.0_37c33004b975920e29c3f2752dffefaed443a6e7/classes.dex" />
+    </item>
+    <item
+        jar="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
+        <dex dex="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-8.4.0_2d8427d192bc2c4d4b8ac27373d0c146bc91ab2d/classes.dex" />
+    </item>
+    <item
+        jar="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_513ec499961b408301de393d937695be33182b18/classes.dex" />
+    </item>
+    <item
+        jar="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
+        <dex dex="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-8.4.0_f631413cddcb0bf33936e528250f9c3e71da7e0d/classes.dex" />
+    </item>
+    <item
+        jar="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3a364cc6b698d1b3b2d284f64618daaa7fe77ddf">
+        <dex dex="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-8.4.0_1c8905911e1ca94ea2dbdaf7d543fc61b3aef260/classes.dex" />
+    </item>
+    <item
+        jar="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.3.0_4a136e1c81a5a05611db32df0a96744e850ad9f3/classes.dex" />
+    </item>
+    <item
+        jar="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e167a34eaca0b31704212f43f9576ea84e05046f">
+        <dex dex="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-8.4.0_8859f7f9fd1567cc7a07179b2d1dbb2e895a0c81/classes.dex" />
+    </item>
+    <item
+        jar="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-23.0.0_6ed5744e7e841c4f72ce50219267fd9c2581ab33/classes.dex" />
+    </item>
+    <item
+        jar="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.4.0_3c56697fe96fe690e2c564e2980d541c4553c186/classes.dex" />
+    </item>
+    <item
+        jar="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9fe026fb4c7fce21bc5142f6e1bdf844f28061ac">
+        <dex dex="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-8.4.0_7ee75c2c9c8dada5e8ee20caa71bc418f3210846/classes.dex" />
+    </item>
+    <item
+        jar="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b82b8e847173c28efffcd291b2a0b1ae9ad17fa4">
+        <dex dex="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-8.4.0_23e62fbf7a1299ce4cf54eccd313bbe71bba2210/classes.dex" />
+    </item>
+    <item
+        jar="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
+        <dex dex="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-8.4.0_e763cae27e2992a9696c2e0a0012020deebde00f/classes.dex" />
+    </item>
+    <item
+        jar="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.0_308cb0fa517473a8b9ca0921c12b086b11e68684/classes.dex" />
+    </item>
+    <item
+        jar="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.4.0_fa9d3c424ec88c6bd8a6400ea27a8fdf3dbbe7f6/classes.dex" />
+    </item>
+    <item
+        jar="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d9f5ee6bad9818141cb8e2f202f0d26a3ba1e83f">
+        <dex dex="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_abc8aa6701545f44f240b101681197989bdcd979/classes.dex" />
+    </item>
+    <item
+        jar="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b36f30ac5ee5d5214f4b1e2ac49f11889d58e71a">
+        <dex dex="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-8.4.0_23763007f235eee9d7c6ad9490eb40560f0aee17/classes.dex" />
+    </item>
+    <item
+        jar="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1c9f35e952b212c843f7bd2c7eec8e82ad95602e">
+        <dex dex="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-8.4.0_133d05b1136ab3774656cd7c04121a4da903e199/classes.dex" />
+    </item>
+    <item
+        jar="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c54246475c1bb64ac6857d1320364bfbfeda2c46">
+        <dex dex="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-8.4.0_deb7b2c1e9d704c1a28fb48b6c4c4fe7ad6c149a/classes.dex" />
+    </item>
+    <item
+        jar="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9cad249cf62751a323d9af568caf12284b7d6062">
+        <dex dex="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-8.4.0_d9ad3107b10a4f6dd5f893e5342f63872bc9b400/classes.dex" />
+    </item>
+    <item
+        jar="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="966e5771a5a2ebfb31bf00d7cd6cd2546d245517">
+        <dex dex="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-8.4.0_8e3ea491df013220150504e88adc6205229a416a/classes.dex" />
+    </item>
+    <item
+        jar="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="08d34b2d135c1cc96ab506fd8bf6916d1e2f391a">
+        <dex dex="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-8.4.0_878fe6da4667db46cf17a6092c6b308aed69ff2f/classes.dex" />
+    </item>
+    <item
+        jar="/home/yashtanna93/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/home/yashtanna93/Udacity_Project_4_Build_It_Bigger/ud867/FinalProject/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_d719e9a11a487b7d3a3fa3b8897d7add84c77e4b/classes.dex" />
+    </item>
+
+</items>

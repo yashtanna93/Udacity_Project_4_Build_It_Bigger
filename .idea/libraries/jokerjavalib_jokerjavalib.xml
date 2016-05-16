@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jokerjavalib.jokerjavalib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jokerjavalib/build/libs/jokerjavalib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
