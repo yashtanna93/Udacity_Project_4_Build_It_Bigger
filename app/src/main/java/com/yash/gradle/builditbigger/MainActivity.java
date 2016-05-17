@@ -8,14 +8,14 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
-import com.example.JockerJava;
 import com.example.jokerandroidlibrary.JokeActivity;
 
 
 public class MainActivity extends AppCompatActivity {
 
-    final JockerJava jockerJava = new JockerJava();
-    String joke;
+//    final JockerJava jockerJava = new JockerJava();
+//    String joke;
+//    private EndpointsAsyncTask mAsyncTask;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,10 +47,19 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void tellJoke(View view) {
-        joke = jockerJava.randomJoke();
-        Toast.makeText(this, joke, Toast.LENGTH_SHORT).show();
-        Intent intent = new Intent(this, JokeActivity.class);
-        intent.putExtra("JOKE_API_KEY", joke);
-        startActivity(intent);
+        new EndpointsAsyncTask(new EndpointsAsyncTask.AsyncResponse() {
+            @Override
+            public void jokeFetched(String joke) {
+                Toast.makeText(getApplicationContext(), joke, Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(getApplicationContext(), JokeActivity.class);
+                intent.putExtra("JOKE_API_KEY", joke);
+                startActivity(intent);
+            }
+        }).execute(this);
+//        joke = jockerJava.randomJoke();
+//        Toast.makeText(this, joke, Toast.LENGTH_SHORT).show();
+//        Intent intent = new Intent(this, JokeActivity.class);
+//        intent.putExtra("JOKE_API_KEY", joke);
+//        startActivity(intent);
     }
 }
