@@ -1,10 +1,14 @@
 package com.yash.gradle.builditbigger;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.util.Log;
+import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
+import com.example.jokerandroidlibrary.JokeActivity;
 import com.example.yashtanna93.myjokeapplication.backend.myApi.MyApi;
 import com.google.api.client.extensions.android.http.AndroidHttp;
 import com.google.api.client.extensions.android.json.AndroidJsonFactory;
@@ -14,21 +18,33 @@ import java.io.IOException;
 /**
  * Created by yashtanna93 on 5/17/16.
  */
-class EndpointsAsyncTask extends AsyncTask<Context, Void, String> {
+class EndpointsAsyncTask extends AsyncTask<Void, Void, String> {
     private static MyApi myApiService = null;
     private Context context;
-    public AsyncResponse response;
+    LinearLayout progressBarHolder;
+//    public AsyncResponse response;
 
-    public interface AsyncResponse {
-        void jokeFetched(String output);
-    }
+//    public interface AsyncResponse {
+//        void jokeFetched(String output);
+//    }
+//
+//    public EndpointsAsyncTask(AsyncResponse response) {
+//        this.response = response;
+//    }
 
-    public EndpointsAsyncTask(AsyncResponse response) {
-        this.response = response;
+    public EndpointsAsyncTask(Context context, LinearLayout progressBarHolder) {
+        this.context = context;
+        this.progressBarHolder = progressBarHolder;
     }
 
     @Override
-    protected String doInBackground(Context... params) {
+    protected void onPreExecute() {
+        super.onPreExecute();
+        progressBarHolder.setVisibility(View.VISIBLE);
+    }
+
+    @Override
+    protected String doInBackground(Void... params) {
         if (myApiService == null) {  // Only do this once
             MyApi.Builder builder = new MyApi.Builder(AndroidHttp.newCompatibleTransport(),
                     new AndroidJsonFactory(), null)
@@ -47,8 +63,6 @@ class EndpointsAsyncTask extends AsyncTask<Context, Void, String> {
             myApiService = builder.build();
         }
 
-        context = params[0];
-
         try {
             String joke = myApiService.tellJoke().execute().getData();
             return joke;
@@ -61,6 +75,10 @@ class EndpointsAsyncTask extends AsyncTask<Context, Void, String> {
     protected void onPostExecute(String result) {
         Toast.makeText(context, result, Toast.LENGTH_LONG).show();
         Log.v("JOKE API", result);
-        response.jokeFetched(result);
+//        response.jokeFetched(result);
+        Intent intent = new Intent(context, JokeActivity.class);
+        intent.putExtra("JOKE_API_KEY", result);
+        context.startActivity(intent);
+        progressBarHolder.setVisibility(View.GONE);
     }
 }

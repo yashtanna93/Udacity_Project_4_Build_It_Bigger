@@ -1,14 +1,13 @@
 package com.yash.gradle.builditbigger;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Toast;
-
-import com.example.jokerandroidlibrary.JokeActivity;
+import android.view.ViewGroup;
+import android.widget.LinearLayout;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -17,12 +16,19 @@ public class MainActivity extends AppCompatActivity {
 //    String joke;
 //    private EndpointsAsyncTask mAsyncTask;
 
+    private LayoutInflater inflater;
+    private ViewGroup container;
+    private LinearLayout progressBarHolder;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        inflater = LayoutInflater.from(this);
+        container = (ViewGroup) findViewById(android.R.id.content);
+        inflater.inflate(R.layout.progress_layout, container);
+        progressBarHolder = (LinearLayout) findViewById(R.id.progress_layout);
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -47,15 +53,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void tellJoke(View view) {
-        new EndpointsAsyncTask(new EndpointsAsyncTask.AsyncResponse() {
-            @Override
-            public void jokeFetched(String joke) {
-                Toast.makeText(getApplicationContext(), joke, Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(getApplicationContext(), JokeActivity.class);
-                intent.putExtra("JOKE_API_KEY", joke);
-                startActivity(intent);
-            }
-        }).execute(this);
+        EndpointsAsyncTask task = new EndpointsAsyncTask(this, progressBarHolder);
+        task.execute();
+//        new EndpointsAsyncTask(new EndpointsAsyncTask.AsyncResponse() {
+//            @Override
+//            public void jokeFetched(String joke) {
+//                Toast.makeText(getApplicationContext(), joke, Toast.LENGTH_SHORT).show();
+//                Intent intent = new Intent(getApplicationContext(), JokeActivity.class);
+//                intent.putExtra("JOKE_API_KEY", joke);
+//                startActivity(intent);
+//            }
+//        }).execute(this);
 //        joke = jockerJava.randomJoke();
 //        Toast.makeText(this, joke, Toast.LENGTH_SHORT).show();
 //        Intent intent = new Intent(this, JokeActivity.class);
