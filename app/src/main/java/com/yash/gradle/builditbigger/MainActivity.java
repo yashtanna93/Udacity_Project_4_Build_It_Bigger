@@ -1,5 +1,6 @@
 package com.yash.gradle.builditbigger;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
@@ -8,6 +9,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
+import android.widget.Toast;
+
+import com.example.jokerandroidlibrary.JokeActivity;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -18,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     private LayoutInflater inflater;
     private ViewGroup container;
-    private LinearLayout progressBarHolder;
+    LinearLayout progressBarHolder;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,7 +57,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void tellJoke(View view) {
-        EndpointsAsyncTask task = new EndpointsAsyncTask(this, progressBarHolder);
+        progressBarHolder.setVisibility(View.VISIBLE);
+        EndpointsAsyncTask task = new EndpointsAsyncTask(new EndpointsAsyncTask.AsyncResponse() {
+            @Override
+            public void jokeFetched(String output) {
+                Toast.makeText(getApplicationContext(), output, Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(getApplicationContext(), JokeActivity.class);
+                intent.putExtra("JOKE_API_KEY", output);
+                startActivity(intent);
+                progressBarHolder.setVisibility(View.GONE);
+            }
+        });
         task.execute();
 //        new EndpointsAsyncTask(new EndpointsAsyncTask.AsyncResponse() {
 //            @Override

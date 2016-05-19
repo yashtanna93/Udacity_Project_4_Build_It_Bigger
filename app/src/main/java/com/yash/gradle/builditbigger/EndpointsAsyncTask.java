@@ -1,14 +1,10 @@
 package com.yash.gradle.builditbigger;
 
+import android.app.Activity;
 import android.content.Context;
-import android.content.Intent;
 import android.os.AsyncTask;
 import android.util.Log;
-import android.view.View;
-import android.widget.LinearLayout;
-import android.widget.Toast;
 
-import com.example.jokerandroidlibrary.JokeActivity;
 import com.example.yashtanna93.myjokeapplication.backend.myApi.MyApi;
 import com.google.api.client.extensions.android.http.AndroidHttp;
 import com.google.api.client.extensions.android.json.AndroidJsonFactory;
@@ -21,26 +17,16 @@ import java.io.IOException;
 class EndpointsAsyncTask extends AsyncTask<Void, Void, String> {
     private static MyApi myApiService = null;
     private Context context;
-    LinearLayout progressBarHolder;
-//    public AsyncResponse response;
+    ;
+    public AsyncResponse response;
+    Activity activity;
 
-//    public interface AsyncResponse {
-//        void jokeFetched(String output);
-//    }
-//
-//    public EndpointsAsyncTask(AsyncResponse response) {
-//        this.response = response;
-//    }
-
-    public EndpointsAsyncTask(Context context, LinearLayout progressBarHolder) {
-        this.context = context;
-        this.progressBarHolder = progressBarHolder;
+    public interface AsyncResponse {
+        void jokeFetched(String output);
     }
 
-    @Override
-    protected void onPreExecute() {
-        super.onPreExecute();
-        progressBarHolder.setVisibility(View.VISIBLE);
+    public EndpointsAsyncTask(AsyncResponse response) {
+        this.response = response;
     }
 
     @Override
@@ -73,12 +59,8 @@ class EndpointsAsyncTask extends AsyncTask<Void, Void, String> {
 
     @Override
     protected void onPostExecute(String result) {
-        Toast.makeText(context, result, Toast.LENGTH_LONG).show();
+//        Toast.makeText(context, result, Toast.LENGTH_LONG).show();
         Log.v("JOKE API", result);
-//        response.jokeFetched(result);
-        Intent intent = new Intent(context, JokeActivity.class);
-        intent.putExtra("JOKE_API_KEY", result);
-        context.startActivity(intent);
-        progressBarHolder.setVisibility(View.GONE);
+        response.jokeFetched(result);
     }
 }
